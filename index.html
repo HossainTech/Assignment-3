@@ -3,12 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment-3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+      <!-- google font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap" rel="stylesheet">
+<!-- font-awesome -->
+      <script src="https://kit.fontawesome.com/1c0b228461.js" crossorigin="anonymous"></script>
+
+      <style>
+        body{
+          font-family: 'Lato', sans-serif;
+        }
+      </style>
+
 </head>
 <body>
-    <header></header>
+    <header class="container ">
+      <nav class="main-container">
+        <div class="main-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">All Fruits</a></li>
+          </ul>
+        </div>
+<!-- logo -->
+        <div class="main-logo">
+          <div class="logo">
+            <img src="/images/logo.png" alt="web-logo">
+          </div>
+          <div class="web-name">
+            <h2>Fruit Burst</h2>
+          </div>
 
-    
+        </div>
+        <!-- search box -->
+        <div class="main-search  border rounded-3xl px-5 py-3 w-[350px] flex justify-between">
+          <input type="text" placeholder="Search here" class="input"/>
+          <i class="fa-solid fa-magnifying-glass w-[30px]"></i>
+        </div>
+
+
+      </nav>
+    </header>
+
+
     <main></main>
 
 
